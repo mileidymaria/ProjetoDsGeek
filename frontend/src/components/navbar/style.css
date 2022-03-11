@@ -1,0 +1,35 @@
+header{
+    background-color: var(--color-primary);
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.ds-geek-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--white-contact-link);
+}
+
+.ds-geek-content a {
+    text-decoration: none;
+}
+
+.ds-geek-content h1 {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.ds-geek-contact-container{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;   
+}
+
+.ds-geek-contact-link{
+    margin: 0 0 0 10px;
+    color: var(--white-contact-link);
+    font-size: 12px;
+}
