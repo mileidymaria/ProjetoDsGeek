@@ -1,3 +1,4 @@
+
 import {ReactComponent as GitHubIcon} from 'assets/img/github.svg';
 import './style.css'
 
@@ -12,7 +13,6 @@ function Navbar(){
                             <GitHubIcon />
                             <p className="ds-geek-contact-link">/mileidymaria</p>
                         </div>
-                        
                     </a>
                 </div>
             </nav>
