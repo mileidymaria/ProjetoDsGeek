@@ -1,0 +1,53 @@
+.ds-geek-pagination-container {
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ds-geek-pagination-box {
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ds-geek-pagination-box form {
+    width: 100%;
+    display: flex;
+}
+
+.ds-geek-pagination-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: var(--color-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #792a2a;
+    cursor: pointer;
+}
+
+.ds-geek-pagination-button svg {
+    filter: brightness(0) saturate(100%) invert(26%) sepia(19%) saturate(7395%) hue-rotate(234deg) brightness(89%) contrast(92%);
+}
+
+.ds-geek-pagination-button:disabled {
+    border: 1px solid #792a2a;
+    cursor: unset;
+}
+
+.ds-geek-pagination-button:disabled svg {
+    filter: none;
+}
+
+.ds-geek-pagination-container p {
+    margin: 0;
+    font-size: 18px;
+    color: var(--white);
+}
+
+.ds-geek-flip-horizontal {
+    transform: rotate(180deg);
+}

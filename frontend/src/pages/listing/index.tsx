@@ -1,6 +1,10 @@
+import Pagination from "components/pagination";
+
 function listing(){
     return(
-        <h1>LISTA DE QUIZES</h1>
+        <div className="container  black-bg" >
+            <Pagination />   
+        </div>
     );
 }
 
