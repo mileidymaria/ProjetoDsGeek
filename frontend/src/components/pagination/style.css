@@ -45,7 +45,7 @@
 .ds-geek-pagination-container p {
     margin: 0;
     font-size: 18px;
-    color: var(--white);
+    color: black;
 }
 
 .ds-geek-flip-horizontal {

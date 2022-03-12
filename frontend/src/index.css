@@ -24,7 +24,7 @@ html, body {
 
 .second-black-bg{
   background-color: var(--second-black-background);
-  color: var(--white);
+  color: var(--color-primary);
 }
 
 .red-bg{
