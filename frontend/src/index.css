@@ -3,6 +3,9 @@
 :root {
   --color-primary: #8a2424;
   --white-contact-link : rgb(238, 230, 230);
+  --white: #fff;
+  --black-background: rgb(17, 17, 17);
+  --second-black-background: rgba(32, 30, 30, 0.933);
 }
 
 * {
@@ -11,7 +14,21 @@
 }
 
 html, body {
-    background-color: #E5E5E5;
+    background-color: var(--white);
+}
+
+.black-bg{
+  background-color: var(--black-background);
+  color: var(--white);
+}
+
+.second-black-bg{
+  background-color: var(--second-black-background);
+  color: var(--white);
+}
+
+.red-bg{
+  background-color: var(--color-primary);
 }
 
 a, a:hover {

@@ -5,8 +5,8 @@ import {
 } from "react-router-dom";
 import Listing from 'pages/listing';
 import Quiz from 'pages/quiz';
-import Form from 'pages/form';
 import Navbar from "components/navbar";
+import Footer from "components/footer";
 
 function App() {
   return (
@@ -17,10 +17,8 @@ function App() {
         <Route path="/quiz">
           <Route path=":characterId" element={<Quiz />} />
         </Route>
-        <Route path="/form">
-          <Route path=":characterId" element={<Form />} />
-        </Route>
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }

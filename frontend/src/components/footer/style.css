@@ -1,0 +1,11 @@
+footer{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+footer p{
+    margin-left: auto;
+    margin-right: auto;
+}

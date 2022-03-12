@@ -1,0 +1,49 @@
+.ds-geek-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ds-geek-description-container{
+    width: 45%;
+}
+
+.ds-geek-card-bottom-container{
+    width: 53%;
+}
+
+.ds-geek-form-group{
+    width: 100%;
+}
+
+.ds-geek-character-card-image{
+    width: 100%;
+}
+
+.character-quiz-title{
+    height: 70px;
+    padding: 6px 40% 2px 45%;
+}
+
+.ds-geek-form-btn-container{
+    height: 70px;
+    margin: 15px 0 0 0;
+    padding: 2px 30% 2px 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ds-geek-form-btn-container button{
+    background-color: var(--black-background);
+    color: var(--color-primary);
+    width: 250px;
+    height: 70%;
+}
+
+.ds-geek-form-group{
+    padding: 10px 0 10px 0;
+}
+
+.ds-geek-form{
+    margin-top: 15px;
+}
