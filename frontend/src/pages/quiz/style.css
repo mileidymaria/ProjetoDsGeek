@@ -1,6 +1,7 @@
 .ds-geek-flex{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .ds-geek-description-container{

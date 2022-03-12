@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { moveEmitHelpers } from "typescript";
 import './style.css'
 
@@ -52,7 +53,9 @@ function form(){
             </div>
             <div className="ds-geek-form-btn-container second-black-bg">
                 <button type="submit" className="btn ds-geek-btn">FINALIZAR</button>
+                <Link to="/">
                 <button className="btn ds-geek-btn">CANCELAR</button>
+                </Link>
             </div>
         </div >
     );
