@@ -14,6 +14,14 @@ function listing(){
                     <CharacterCard /> 
                     <CharacterCard /> 
                     <CharacterCard /> 
+                    <CharacterCard /> 
+                    <CharacterCard /> 
+                    <CharacterCard /> 
+                    <CharacterCard /> 
+                    <CharacterCard /> 
+                    <CharacterCard /> 
+                    <CharacterCard /> 
+                    <CharacterCard /> 
                 </div> 
             </div>    
         </div>

@@ -12,7 +12,6 @@ public class Character implements Serializable {
     private Long id;
     private String name;
     private String image;
-    @Lob
     private String description;
     private String firstQuestion;
     private String firstQuestionRightAnswer;
