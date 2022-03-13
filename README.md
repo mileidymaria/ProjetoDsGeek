@@ -7,7 +7,6 @@ A proposta do projeto foi desenvolver uma API rest e desenvolver um frontend usa
 ### Layouts propostos:
 
 ![DSMovie1](https://user-images.githubusercontent.com/70546118/158044697-450a4a7c-46a1-47c7-8205-ef9144e6e831.png)
-![Form](https://user-images.githubusercontent.com/70546118/158044700-8453c7b1-b898-41ce-b6ff-158953fe3276.png)
 
 ## Os objetivos durantes as aulas foram: 
 
