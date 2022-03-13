@@ -58,4 +58,9 @@ A proposta do projeto foi desenvolver uma API rest e desenvolver um frontend usa
 
 ## Objetivos:
 
-Por em prática conceitos básicos estudados sobre React e Typescript, utilizando componentização, flexbox para responsividade, integração back e front e outros conceitos que foram mostradas nos objetivos das aulas. Me baseei nesse projeto para desenvolver o DSFEEK, um serviço de quizes, que ainda está ainda em construção. 
+Por em prática conceitos básicos estudados sobre React e Typescript, utilizando componentização, flexbox para responsividade, integração back e front e outros conceitos que foram mostradas nos objetivos das aulas. Me baseei nesse projeto para desenvolver o DSFEEK, um serviço de quizes, que ainda está ainda em construção. Esse foi o layout desenvolvido por mim:
+
+![image](https://user-images.githubusercontent.com/70546118/158044892-06ed9d16-f49a-4f0c-81ac-96d216c6fb6f.png)
+![image](https://user-images.githubusercontent.com/70546118/158044899-eb2caad1-bb9b-4cf5-b340-920530a7ab37.png)
+
+
