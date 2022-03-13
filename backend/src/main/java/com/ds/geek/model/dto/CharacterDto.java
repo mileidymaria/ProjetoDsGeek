@@ -32,6 +32,7 @@ public class CharacterDto {
         this.id = id;
         this.name = name;
         this.description = description;
+        this.image = image;
         this.firstQuestion = firstQuestion;
         this.firstQuestionRightAnswer = firstQuestionRightAnswer;
         this.firstQuestionWrongtAnswer = firstQuestionWrongtAnswer;

@@ -26,6 +26,9 @@ public class CharacterServiceImpl implements CharacterService{
     public CharacterDto findById(Long id){
         Optional<Character> result = characterRepository.findById(id);
         if (result.isPresent()){
+            System.out.println("IMAGEM ANTES DO DTO: " + result.get().getImage());
+            CharacterDto c = Mapper.toCharacterDto(result.get());
+            System.out.println("IMAGEM DPS DO DTO: " + c.getImage());
             return Mapper.toCharacterDto(result.get());
         }
         return null;
