@@ -1,6 +1,5 @@
 import FormCard from "components/FormCard";
-import { Link, useParams } from "react-router-dom";
-import { Character } from "types/character";
+import { useParams } from "react-router-dom";
 
 
 function Form(){
