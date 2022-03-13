@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { moveEmitHelpers } from "typescript";
 import './style.css'
 
 function form(){
