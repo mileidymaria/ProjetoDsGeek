@@ -33,9 +33,9 @@ function Listing(){
     return(
         <div className="container">
             <Pagination />  
-            <div className="">
+            <div className="ds-geek-list-container-character">
                 {page.content.map(character => (
-                    <div key ={character.id} className="ds-geek-list-container-character">
+                    <div key ={character.id} className="">
                         <CharacterCard character={character}/>  
                     </div> 
                 ))}
