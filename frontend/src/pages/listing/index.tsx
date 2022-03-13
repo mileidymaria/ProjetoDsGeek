@@ -14,7 +14,7 @@ function Listing(){
         last: true,
         totalPages: 0,
         totalElements: 0,
-        size: 12,
+        size: 4,
         number: 0,
         first: true,
         numberOfElements: 0,
@@ -30,9 +30,13 @@ function Listing(){
         });
     }, [pageNumber]);
 
+    const handlePageChange = (newPageNumber : number) => {
+        setPageNumber(newPageNumber);
+    }
+
     return(
         <div className="container">
-            <Pagination />  
+            <Pagination page={page} onChange={handlePageChange}/>  
             <div className="ds-geek-list-container-character">
                 {page.content.map(character => (
                     <div key ={character.id} className="">

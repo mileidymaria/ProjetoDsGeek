@@ -56,7 +56,7 @@ function FormCard({characterId} : Props){
             <div className="ds-geek-form-btn-container second-black-bg">
                 <button type="submit" className="btn ds-geek-btn">FINALIZAR</button>
                 <Link to="/">
-                <button className="btn ds-geek-btn">CANCELAR</button>
+                    <button className="btn ds-geek-btn">CANCELAR</button>
                 </Link>
             </div>
         </div >
