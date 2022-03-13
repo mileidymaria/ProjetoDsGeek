@@ -16,7 +16,7 @@ function characterCard(){
         third_question: "Public enemy?",
         third_question_right_answer: "Riddler",
         third_question_wrong_answer: "Ares"
-        };
+    };
     return (    
         <div className="ds-geek-card">
             <img className="ds-geek-movie-card-image" src={character.image} alt={character.name} />
